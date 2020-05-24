@@ -1,0 +1,22 @@
+.PositionPanier {
+    position: fixed;
+    width: 350px;
+    height: 396px;
+    margin-left: 75%;
+    margin-top: -1063px;
+}
+
+.card-header-title {
+    background-color: #00c4a7;
+
+}
+
+#taillBtn {
+    width: 320px;
+    height: 63px;
+
+}
+
+.TaillePanier{
+padding-bottom: 150px;
+}

@@ -1,0 +1,72 @@
+#SeparationHaut {
+    margin-top: 100px;
+}
+
+.EspaceMilieu {
+    margin-left: 40px;
+}
+
+#BoutonCentre {
+
+    display: flex;
+    justify-content: center;
+}
+
+.ImagePlace {
+
+    justify-content: flex-start;
+}
+
+
+.AlignementBlock {
+    display: flex;
+    align-items: center;
+}
+.blocPage{
+    align-items: center;
+    margin-left: 370px;
+    margin-right: auto;
+    margin-top: -1145px;
+    width: 500px;
+
+}
+
+
+
+
+p {
+    word-wrap: break-word;
+}
+
+.BoutonImage {
+    background: url(http://lorempixel.com/400/200/food);
+    border: none;
+}
+
+.CardsAlign1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.CardsAlign2 {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    margin-bottom: 200px;
+}
+
+.margin {
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+h4 {
+    text-align: center;
+
+}

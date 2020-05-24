@@ -1,0 +1,135 @@
+<!--<br>
+<br>
+<br>
+<link rel="stylesheet" href="public/css/payement.css">
+<div class="row">
+    <div class="col-25">
+        <div class="container-Panier">
+            <form action="/action_page.php">
+
+                <div class="row">
+                    <div class="col-50">
+                        <h3>Adresse de livraison</h3>
+                        <br>
+                        <label for="fname"> Etage et numéro d'appartement </label>
+                        <input type="text" id="fname" name="firstname" placeholder="ex : Appartement n°20">
+                        <label for="email"> Digicode</label>
+                        <input type="text" id="email" name="email" placeholder="ex : C83748 ">
+                        <label for="adr"> Adresse</label>
+                        <input type="text" id="adr" name="address" placeholder="ex : 4 Rue de Rivoli">
+                        <label for="city"> Ville</label>
+                        <input type="text" id="city" name="city" placeholder="ex : Paris">
+
+                        <div class="row">
+                            <div class="col-50">
+                                <label for="zip">Code postal</label>
+                                <input type="text" id="zip" name="zip" placeholder="ex : 75004">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-50">
+                        <h3>Moyens de paiement</h3>
+
+                        <div class="icon-container">
+                            <form>
+                                <div>
+                                  <input type="radio" id="payementCartes"
+                                   name="payement" value="cartes">
+                                  <label for="payementCartes">
+                                      <div id="visa"><i class="fab fa-cc-visa"></i></div>
+                                      <div id="masterCard"><i class="fab fa-cc-mastercard"></i></div>
+                                      <div id="amex"><i class="fab fa-cc-amex"></i></div></label><br>
+
+                                  <input type="radio" id="payementEspeces"
+                                   name="payement" value="especes">
+                                  <label for="contactEspeces">
+                                      <div id="tcktResto"><img class="tcktResto" src="https://cdn1.iconfinder.com/data/icons/hotel-and-restaurant-volume-5-1/48/247-512.png"></div></label>
+                                      <div id="cash"><i class="far fa-money-bill-alt"></i></div><br>
+
+                                  <input type="radio" id="payementPaypal"
+                                   name="payement" value="paypal">
+                                  <label for="payementPaypal">
+                                      <div id="paypal"><i class="fab fa-cc-paypal"></i></label></div>
+
+                                <input type="radio" id="payementApplePay"
+                                   name="payement" value="applePay">
+                                  <label for="payementApplePay">
+                                      <div id="applePay"><i class="fab fa-cc-apple-pay"></i></label></div>
+
+                                <input type="radio" id="payementGooglePay"
+                                   name="payement" value="googlePay">
+                                  <label for="payementGooglePay">
+                                      <div id="googlePay"><img class="googlePay" src="https://cdn.shopify.com/s/files/1/0070/3014/5091/files/google-pay-icon.png?13064160138390907501"></label></div>
+                                </div>
+                                <div>
+                                    <a class="button is-info" id="boutonPayement">
+                                        Valider
+                                    </a>
+                                </div>
+                              </form>
+                        </div>
+
+
+                    </div>
+                </div>
+                <center><button class="button is-info" >Valider votre commande</button></center>
+            </form>
+        </div>
+    </div>
+
+    <div class="col-25">
+        <div class="container-Panier">
+            <h4>Panier
+                <span class="price" style="color:black">
+                    <i class="fas fa-shopping-bag" style="color: #00d1b1;"></i>
+                    <b>&nbsp;{{ session()->has('cart') ? session()->get('cart')->totalQty : '0' }}</b>
+                </span>
+            </h4>
+            <hr>
+            <p>Product 1 <span class="price">15€</span></p>
+            <p>Product 2 <span class="price">5€</span></p>
+            <p>Product 3 <span class="price">8€</span></p>
+            <p>Product 4 <span class="price">2€</span></p>
+            <hr>
+            <div class="field is-grouped">
+                <p class="control is-expanded">
+                    <input class="input" type="text" placeholder="Code Promo">
+                </p>
+                <p class="control">
+                    <a class="button is-info">
+                        Confirmer
+                    </a>
+                </p>
+            </div>
+            <hr>
+            <div>
+            <ul>
+                <li>Sous-total <span class="prix">{{ $amount}}&nbsp;€</span></li>
+                <li>Frais de livraison <span class="prix">0&nbsp;€</span></li>
+                <li>Pourboire livreur <span class="prix">0&nbsp;€</span></li>
+            </ul>
+            </div>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>{{ $amount}}&nbsp;€</b></span></p>
+
+            <form action="/charge" method="post" id="payment-form">
+                @csrf
+                <div class="">
+                    <input type="hidden" name="amount" value="{{ $amount}}">
+                    <label for="card-element">
+                        Carte de credit
+                    </label>
+                    <div id="card-element">
+                        <!-- A Stripe Element will be inserted here.
+                    </div>-->
+
+<!-- Used to display form errors. --
+                    <div id="card-errors" role="alert"></div>
+                </div>
+
+                <button class="button is-info">Valider payement</button>
+            </form>
+        </div>
+    </div>
+</div>-->

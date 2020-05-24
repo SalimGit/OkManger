@@ -1,0 +1,77 @@
+#menu-accordeo {
+    padding: 0px;
+    margin-top:104px;
+    list-style:none;
+    text-align: center;
+    width: 250px;
+    border:solid 1px #00d1b2;
+    border-radius:10px;
+    height: 1046px;
+  }
+  #menu-accordeo ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+
+  }
+  #menu-accordeo li {
+     background-color:white;
+     border-radius: 10px;
+     margin-bottom:2px;
+
+
+  }
+  #menu-accordeo li li {
+     max-height:0;
+     overflow: hidden;
+     transition: all .5s;
+     border-radius:10px;
+     background: white;
+     box-shadow: none;
+     border:none;
+     margin:0;
+
+  }
+  #menu-accordeo a {
+    margin-bottom:50px;
+    display:block;
+    text-decoration: none;
+    color: #00d1b2;
+    padding: 8px 0;
+    font-family: verdana;
+    font-size:1em
+  }
+  #menu-accordeo ul li a{
+    font-size:1em;
+    color:#00d1b2;
+    background:white;
+  }
+  #menu-accordeo a:hover {
+    font-size:1em;
+    color:white;
+    background:#00d1b2;
+    border-radius: 10px;
+
+  }
+  #menu-accordeo li:hover {
+     background:white
+  }
+  #menu-accordeo li li:hover {
+     background: white;
+  }
+  #menu-accordeo ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu-accordeo li:hover li {
+    max-height: 15em;
+  }
+  .adresseClien{
+    border:solid 1px #00d1b2;
+    border-radius:10px;
+    width: 250px;
+    text-align: center;
+    color: #00d1b2;
+    margin-top: -18%
+  }

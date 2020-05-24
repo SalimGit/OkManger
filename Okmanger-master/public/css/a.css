@@ -1,0 +1,7 @@
+
+  .flex-wrap{
+    width: 102vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    }

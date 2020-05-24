@@ -1,0 +1,181 @@
+.prix {
+    float: right;
+    color: black;
+}
+
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+
+.container-Panier {
+    background-color: white;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.box {
+    position: fixed;
+    margin-left: -27%;
+    width: 365px;
+    margin-top: -58.5%;
+}
+
+@media screen and (min-width: 1920px) {
+    .box {
+        position: fixed;
+        margin-left: -27%;
+        width: 440px;
+        height: auto;
+        margin-top: -43%;
+    }
+}
+
+#taillBtn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gras {
+    font-weight: 900;
+}
+
+#placementfrais {
+    display: flex;
+}
+
+.container {
+    width: 74%;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: rgba(0, 0, 16, 0.8);
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    border-bottom: 0.1em solid rgba(0, 0, 16, 0.8);
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 2.8em;
+}
+
+.card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 16, 0.19), 0 0.3rem 0.3rem rgba(0, 0, 16, 0.23);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 16, 0.19), 0 0.3rem 0.3rem rgba(0, 0, 16, 0.23);
+    background-color: rgb(180, 180, 180);
+    padding: 0.8rem;
+    width: 33rem;
+}
+
+.rating-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.4rem 0.8rem;
+    width: 100%;
+}
+
+.rating-text p {
+    color: rgba(0, 0, 16, 0.8);
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+
+.rating {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0.4rem 0.4rem 0.1rem 0.4rem;
+    border-radius: 2.2rem;
+}
+
+svg {
+    height: 3.6rem;
+    width: 3.6rem;
+    margin: 0.2rem;
+}
+
+.rating-form-2 svg {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+#radios label {
+    position: relative;
+}
+
+input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+input[type="radio"]+svg {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+input+svg {
+    cursor: pointer;
+}
+
+input[class="creditCard"]:hover+svg,
+input[class="creditCard"]:checked+svg,
+input[class="creditCard"]:focus+svg {}
+
+input[class="paypal"]:hover+svg,
+input[class="paypal"]:checked+svg,
+input[class="paypal"]:focus+svg {}
+
+input[class="apelle"]:hover+svg,
+input[class="apelle"]:checked+svg,
+input[class="apelle"]:focus+svg {}
+
+input[class="google"]:hover+svg,
+input[class="google"]:checked+svg,
+input[class="google"]:focus+svg {}
+
+input[class="cash"]:hover+svg,
+input[class="cash"]:checked+svg,
+input[class="cash"]:focus+svg {}
+
+input[class="ticketRestau"]:hover+svg,
+input[class="ticketRestau"]:checked+svg,
+input[class="ticketRestau"]:focus+svg {}

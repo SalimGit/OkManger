@@ -1,0 +1,78 @@
+#menu-accordeon {
+    padding: 0px;
+    margin-top:41px;
+    list-style:none;
+    text-align: center;
+    width: 209px;
+    border:solid 1px #00d1b2;
+    border-radius:10px;
+    height: 1046px;
+  }
+  #menu-accordeon ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align: center;
+
+  }
+  #menu-accordeon li {
+     background-color:white;
+     border-radius: 10px;
+     margin-bottom:2px;
+
+
+  }
+  #menu-accordeon li li {
+     max-height:0;
+     overflow: hidden;
+     transition: all .5s;
+     border-radius:10px;
+     background: white;
+     box-shadow: none;
+     border:none;
+     margin:0;
+
+  }
+  #menu-accordeon a {
+    margin-bottom:50px;
+    display:block;
+    text-decoration: none;
+    color: #00d1b2;
+    padding: 8px 0;
+    font-family: verdana;
+    font-size:1em
+  }
+  #menu-accordeon ul li a{
+    font-size:1em;
+    color:#00d1b2;
+    background:white;
+  }
+  #menu-accordeon a:hover {
+    font-size:1em;
+    color:white;
+    background:#00d1b2;
+    border-radius: 10px;
+
+  }
+  #menu-accordeon li:hover {
+     background:white
+  }
+  #menu-accordeon li li:hover {
+     background: white;
+  }
+  #menu-accordeon ul li:last-child {
+     border-radius: 0 0 6px 6px;
+     border:none;
+  }
+  #menu-accordeon li:hover li {
+    max-height: 15em;
+  }
+  .adresseClient{
+    border:solid 1px #00d1b2;
+    border-radius:10px;
+    width: 209px;
+    text-align: center;
+    color: #00d1b2;
+    margin-top: -7px;
+  }
+

@@ -1,0 +1,32 @@
+.CardsAlign1{
+    display: flex;
+    justify-content: center;
+}
+
+.CardsAlign2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.CardsAlign3{
+    display: flex;
+    justify-content: center;
+}
+
+.CardsAlign4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+h1{
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+h4{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,40 @@
+.media {
+  border: solid #00d1b2 1px;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  font-size: 4em;
+
+}
+
+.sousTitre {
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  font-size: 1.5em;
+}
+
+#etoile {
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  margin-left:43%;
+}
+.imageRestau {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: flex-start;
+
+}
+
+.confirmation{
+  margin-top:20px;
+  width:852px;
+}

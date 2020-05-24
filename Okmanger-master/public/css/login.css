@@ -1,0 +1,44 @@
+.input {
+    width: 460px;
+  }
+
+  .box {
+    width: 500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    padding-top: 30px;
+  }
+
+  .box1 {
+    width: 600px;
+    height: 600px;
+    background-color: #00d1b2;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+  }
+
+  .connectezVous {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+  }
+
+  .button{
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.label{
+  display: flex;
+  justify-content: flex-start;
+}
+
+  body {
+    background-image: url("/img/fondOkMange.png");
+  }
